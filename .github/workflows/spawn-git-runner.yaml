@@ -26,7 +26,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Install jq
-        run: apt install jq
+        run: sudo apt install jq
       - name: Install napptive CLI
         shell: bash
         run: curl -O https://storage.googleapis.com/artifacts.playground.napptive.dev/installer.sh && bash installer.sh
