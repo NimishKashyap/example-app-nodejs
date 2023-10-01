@@ -62,3 +62,4 @@ jobs:
         shell: bash
         run: |
           playground catalog deploy napptive/github-runner:2.298.2 --setParametersFromFile param-file.yaml
+
