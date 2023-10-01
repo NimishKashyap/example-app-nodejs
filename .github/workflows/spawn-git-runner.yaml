@@ -29,5 +29,5 @@ jobs:
         shell: bash
         run: |
           ls
-          chmod +x ./scripts/github-runner.sh
-          ./scripts/github-runner.sh
+          chmod +x ./scripts/github-runner.bash
+          ./scripts/github-runner.bash
