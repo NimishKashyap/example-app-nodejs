@@ -49,6 +49,7 @@ jobs:
         run: |
           sed -i "s/__TOKEN__/$TOKEN/g" param-file.yaml
           sed -i "s/__ORGANIZATION__/$ORG/g" param-file.yaml
+          cat param-file.yaml
       - name: Use env
         shell: bash
         run: |
